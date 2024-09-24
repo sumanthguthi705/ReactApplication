@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Home page</title>            
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+        <style>
+            body{
+                font-family: 'Open sans';
+                background-color: rgb(201, 201, 218);
+            }
+            .mainDiv
+            {
+                width:25%;
+                background-color: white;
+                border-radius: 5%;
+                margin-left:35%;
+            }
+            .formClass
+            {
+                font-size: medium; 
+                padding-left: 50px;
+                padding-bottom: 10px;
+                padding-top:10px;
+                padding-right:50px;
+                width:50%
+            }
+            .rd
+            {
+                border-radius: 5px; 
+            }
+            .loginButton
+            {
+                background-color: rgb(156, 223, 21)
+                /* #73F1F9 */
+            }
+            .header
+            {
+                width:75%;
+                margin:auto;
+                margin-bottom: 10px;
+                background-color: white;
+                height:40px;
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+            }
+            .pd10
+            {
+                padding-bottom:10px
+            }
+            .tabButtons
+            {
+                background-color: #b9e280;
+                border-radius:10px;
+                padding:10px;
+                margin:5px
+            }
+            .studentLogo
+            {
+                padding:10px;
+                margin:5px
+                text-align- center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="header rd">
+            <div calss="studentLogo">
+                <h3 calss="studentLogo">Student Login Portal</h3>
+            </div>
+            <button class="tabButtons">Courses</button>
+            <button class="tabButtons">Facuality</button>
+            <button class="tabButtons">Culture</button>
+            <button class="tabButtons">Queries</button>
+         </div>
+        <div class="mainDiv">
+            <div>
+                <form class ="formClass">
+                    <h3>Login</h3>
+                    Student ID<br>
+                    <input class="studentform rd" placeholder="Student ID"><br><br>
+                    Password <br>
+                    <input class="studentform rd" placeholder="Password"><br><br>
+                    <button class="loginButton rd">Login</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
